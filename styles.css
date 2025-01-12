@@ -1,0 +1,119 @@
+:root {
+    --first-color: #000000;
+    --secound-color--:  rgb(51, 102, 102);
+  }
+  * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+  }
+  
+  #navbar {
+  background: linear-gradient(90deg, rgb(0, 102, 204)0%, rgb(153, 153, 153) 60%);
+    padding: 1rem;;
+    }
+  ul {
+    display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+    #navbar a {
+      font-size: 30px;
+      color: rgb(255, 255, 0);
+  background-color: rgb(153, 153, 153);
+    margin: auto 2rem;
+    text-decoration: none;
+    }
+  
+  #welcome {
+    align-content: center;
+    height: 100vh;
+    max-height: 650px;
+    color: white;
+    background: linear-gradient(125deg, rgb(102, 102, 255), rgb(102, 255, 0));
+  }
+  
+  #welcome p, #welcome h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+  
+  #projects {
+    height: 100vh;
+    color: white;
+    background: linear-gradient(360deg, rgb(51, 0, 51), var(--secound-color--));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: auto;
+  }
+  
+  #project>h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 5rem;
+    text-decoration: underline; 
+    text-underline-offset: 20px;
+    display: block;
+    
+  }
+  
+  #contact {
+     height: 100vh;
+    max-height: 200px;
+    color: white;
+    background: linear-gradient(340deg, rgb(51, 0, 51) 0%, rgb(51, 153, 255) 25%, rgb(51, 0, 51) 80%);
+  
+  }
+  
+  h3 {
+    text-align: right;
+    padding: 1rem 10rem;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+
+  .social-icons {
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem;
+  }
+
+  .project img {
+    width: 420px;
+    max-height: 300px;
+    margin: auto 2rem;
+    min-height: 300px;
+  }
+
+  .project-titles {
+    color: yellow;
+    text-align: center;
+    margin: 1rem auto auto;
+ }
+
+ .project {
+    display: inline-block;
+ }
+
+ #project-header {
+    background-color: var(--secound-color--);
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+ }
